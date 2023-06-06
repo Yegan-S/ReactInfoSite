@@ -1,0 +1,38 @@
+.App{
+    max-width: 600px;
+    height: 400px;
+    margin: 30px auto;
+    border: 1px solid #dadde1;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 60px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items li {
+    padding: 10px;
+}
+.MainContent h1 , ul{
+    text-align: center;
+}
+.MainContent li{
+    list-style: none;
+}
+.Footer{
+    text-align: center;
+    position: relative;
+    bottom: -170px;
+}
