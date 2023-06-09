@@ -6,11 +6,13 @@ import './Page.css';
 
 export default function Page() {
   return (
-    <div className="page">
+    <div className="page-container  ">
+    
        <Header />
     <MainContent />
    <Footer />
     </div>
+   
 
   );
 

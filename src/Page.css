@@ -1,38 +1,83 @@
-.App{
+
+
+body {
+    margin: 0;
+    height: 100vh;
+}
+.page-container{
     max-width: 600px;
-    height: 400px;
+    height: 500px;
     margin: 30px auto;
     border: 1px solid #dadde1;
     padding: 16px;
     border-radius: 4px;
+    background-color: #282D35;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #21222A;
+    height: 30px;
+    padding: 30px 15px;
 }
 
 .nav-logo {
     width: 60px;
 }
 
-.nav-items {
-    list-style: none;
+.nav-items { 
     display: flex;
 }
+.nav-items h3{
+    margin: 0;
+    margin-right: auto;
+    position: relative;
+    top: -20px;
+    color: #61DAFB;
+    font-size: 22px;
+}
+.nav-items h4 {
+    position: relative;
+    right: -240px;
+    top: -20px;
+    margin: 0;
+    color: #DEEBF8;
+   
+}
+.MainContent{
+  padding: 40px 27px; 
+  color: white;
+  background-image: url(./images/react-icon.jpg);
+  background-repeat: no-repeat;
+  background-position-x:right ;
+  background-position-y: 75%;
 
-.nav-items li {
-    padding: 10px;
 }
-.MainContent h1 , ul{
+
+.MainContent h1{
     text-align: center;
+    margin: 0;
+    font-size: 39px;
+    letter-spacing: -0.05em;
 }
+
+.MainContent ul {
+    margin-top: 46px;
+}
+
 .MainContent li{
-    list-style: none;
+   padding-block: 10px;
+}
+
+.MainContent li::marker {
+    color: #61daf6;;
+    font-size: 1.6rem;
 }
 .Footer{
     text-align: center;
     position: relative;
-    bottom: -170px;
+    bottom: 25px;
+    font-size: 12px;
 }
