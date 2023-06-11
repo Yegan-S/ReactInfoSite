@@ -24,7 +24,7 @@ body {
 }
 
 .nav-logo {
-    width: 60px;
+    width: 45px;
 }
 
 .nav-items { 
@@ -34,14 +34,15 @@ body {
     margin: 0;
     margin-right: auto;
     position: relative;
-    top: -20px;
+   top: 5px;
+    right: -15px;
     color: #61DAFB;
     font-size: 22px;
 }
 .nav-items h4 {
     position: relative;
     right: -240px;
-    top: -20px;
+    top: 8px;
     margin: 0;
     color: #DEEBF8;
    
@@ -78,6 +79,6 @@ body {
 .Footer{
     text-align: center;
     position: relative;
-    bottom: 25px;
+    bottom: 35px;
     font-size: 12px;
 }
